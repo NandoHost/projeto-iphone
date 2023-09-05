@@ -1,0 +1,90 @@
+* {
+    font-family: sans-serif;
+    margin: 0; /* margem externa*/
+    padding: 0; /*margem interna*/
+   box-sizing: border-box;/*forma como css calcula as distancias*/
+}
+
+.caixa-azul {
+    display: flex;
+    padding: 50px;
+}
+
+.titulo-iphone {
+    font-size: 30px;
+
+}
+
+.titulo-secundario{
+    font-size: 40px; /*tamanho do texto*/
+    margin-top: 10px;/*Margem parte de cima*/
+    margin-bottom: 20px; /*Margem parte de baixo*/
+}
+
+.paragrafo {
+    font-size: 15px;
+    margin-bottom: 25px;
+} 
+
+.preco {
+   font-size: 20px;
+   color: #626262;
+   font-weight: 300;
+   margin-bottom: 30px;
+}  
+
+.botao {
+    background-color: #0071e3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none; /*bordas das imagens e icones*/
+    border-radius: 20px; /*comando para arredondar a borda*/
+    font-size: 20px;
+    cursor: pointer; /* aparece o cursor nos botões*/
+    margin-bottom: ;
+}
+
+.troca-cor{
+   width: 40px;
+   height: 40px;
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+
+}
+
+.azul{
+    background-color: #0071e3;
+}
+
+.amarelo{
+    background-color: rgb(246, 250, 7);
+}
+
+.verde{
+    background-color: chartreuse;
+}
+
+.vermelho{
+    background-color: brown;
+}
+
+.preto{
+    background-color: black;
+}
+
+.roxo{
+    background-color: blueviolet;
+}
+
+.escolha-cor{
+    font-size: 16px;/*tamanho da fonte*/
+    color: rgb(58, 55, 55);
+    font-weight: 700;/*muda a grossura da fonte*/
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+img {
+    width: 450px;
+
+}
